@@ -5,7 +5,7 @@ CC=$(CROSS_COMPILE)gcc
 GCC=$(CROSS_COMPILE)gcc
 LD=$(CROSS_COMPILE)ld
 
-CFALGS=-Wall
+CFLAGS=-Wall
 
 all:$(OBJS) $(TARGETS)
 

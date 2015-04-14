@@ -24,7 +24,7 @@ int main(int argc, char **argv)
     char cl_addr[32];
     int cl_port;
     int len;
-    char buf[BUF_SIZE];
+    unsigned char buf[BUF_SIZE];
     int ret;
 
     if(argc > 1)

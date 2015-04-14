@@ -14,7 +14,7 @@ int sock = -1;
 int main(int argc, char **argv)
 {
     int len;
-    char buf[BUF_SIZE];
+    unsigned char buf[BUF_SIZE];
     int ret;
 
     if(argc > 1)
